@@ -3,7 +3,12 @@ ADM:
         name: 'modeling'
 
 <Modeling>:
-    Label:
-        text: 'Modeling'
-        x: 0
-        y: 0
+    FloatLayout:
+        canvas:
+            Color:
+                rgba: 1, 1, 1, 1
+            Rectangle:
+                id: bg
+                size: self.size
+                pos: self.pos
+                source: 'bg.png'
